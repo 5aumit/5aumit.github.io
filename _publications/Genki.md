@@ -1,5 +1,5 @@
 ---
-title: "Artificial intelligence as a proficient tool in detecting pulmonary tuberculosis in massive population screening programs: a case study in Chennai, India"
+title: Artificial intelligence as a proficient tool in detecting pulmonary tuberculosis in massive population screening programs: a case study in Chennai, India
 collection: publications
 category: manuscripts
 permalink: /publication/Genki
