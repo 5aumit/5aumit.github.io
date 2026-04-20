@@ -15,12 +15,16 @@ I am an **Applied Machine Learning Engineer** with over three years of experienc
 
 ## 🎓 Education
 * **M.S. in Electrical Engineering** | North Carolina State University | *Expected May 2027*
-* **B.Tech in Electrical & Electronics Engineering** | Manipal Institute of Technology
+* **B.Tech in Electrical & Electronics Engineering** | Manipal Institute of Technology | 2022
 
 ## 💼 Professional Experience
 
-### **DeepTek.ai** | Data Scientist 
+### [**DeepTek.ai**](deeptek.ai) | Data Scientist 
 *June 2022 – July 2025* 
+
+At DeepTek, my primary focus was on developing computer vision based segmentation models for chest X-ray scans. Besides just training models across multiple experiments, I also owned the entire lifecycle of the models from data collection, cleaning, auditing, packaging for deployment, monitoring performance and reporting to customers.
+
+I also led a team of interns in developing an internal tool to evaluate ML experiments at scale. 
 
 ### **Anheuser-Busch InBev** | Automation Intern
 *January 2022 – May 2022*
@@ -35,7 +39,7 @@ I am an **Applied Machine Learning Engineer** with over three years of experienc
 
 ## 🛠 Technical Skills
 * **Programming Languages**: Python, R
-* **ML & AI**: PyTorch, TensorFlow, Keras, Transformers, Ollama, LangChain, Generative AI, RAG 
+* **ML & AI**: PyTorch, TensorFlow, Keras, Transformers, Ollama, LangChain, Generative AI, RAG , LangFuse
 * **Data & Pipelines**: SQL, MongoDB, Azure Data Factory, MLFlow, Pandas, NumPy, OpenCV
 * **Version Control & MLOps**: Git, DVC
 
