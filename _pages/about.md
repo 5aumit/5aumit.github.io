@@ -19,7 +19,7 @@ I am an **Applied Machine Learning Engineer** with over three years of experienc
 
 ## 💼 Professional Experience
 
-### [**DeepTek.ai**](deeptek.ai) | Data Scientist 
+### [**DeepTek.ai**](https://deeptek.ai/) | Data Scientist 
 *June 2022 – July 2025* 
 
 At DeepTek, my primary focus was on developing computer vision based segmentation models for chest X-ray scans. Besides just training models across multiple experiments, I also owned the entire lifecycle of the models from data collection, cleaning, auditing, packaging for deployment, monitoring performance and reporting to customers.
