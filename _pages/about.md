@@ -14,8 +14,8 @@ I am an **Applied Machine Learning Engineer** with over three years of experienc
 ---
 
 ## 🎓 Education
-* **M.S. in Electrical Engineering** | North Carolina State University | *Expected May 2027*
-* **B.Tech in Electrical & Electronics Engineering** | Manipal Institute of Technology | 2022
+* **M.S. in Electrical Engineering**, North Carolina State University
+* **B.Tech in Electrical & Electronics Engineering**, Manipal Institute of Technology
 
 ## 💼 Professional Experience
 
