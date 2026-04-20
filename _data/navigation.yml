@@ -14,8 +14,8 @@ main:
   - title: "Publications"
     url: /publications/
 
-  # - title: "Music"
-  #   url: /music/    
+  - title: "Music"
+    url: /music/    
 
   # - title: "Teaching"
   #   url: /teaching/    

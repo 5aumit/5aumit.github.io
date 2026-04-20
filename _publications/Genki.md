@@ -1,6 +1,7 @@
 ---
 title: "Artificial intelligence as a proficient tool in detecting pulmonary tuberculosis in massive population screening programs: a case study in Chennai, India"
 collection: publications
+category: manuscripts
 permalink: /publication/Genki
 excerpt: 'Objective: To evaluate the performance of Genki, a computer-aided detection (CADe) software, in detecting tuberculosis (TB) using chest radiography in a mobile TB screening program in Chennai, India.
 
