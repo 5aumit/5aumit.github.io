@@ -7,10 +7,6 @@ redirect_from:
   - /about.html
 ---
 
-**Applied ML Engineer | Raleigh, NC**
-[sspaul3@ncsu.edu](mailto:sspaul3@ncsu.edu) | [LinkedIn](https://www.linkedin.com) | [GitHub](https://www.github.com/5aumit)
-
----
 
 ## 🚀 About Me
 I am an **Applied Machine Learning Engineer** with over three years of experience specialized in building **FDA-approved computer vision models** for medical imaging. Currently, I am pursuing my **Master of Science in Electrical Engineering** at **North Carolina State University**.My expertise spans generative AI, audio signal processing, and medical diagnostics, with a focus on creating high-impact, regulatory-standard AI solutions.
