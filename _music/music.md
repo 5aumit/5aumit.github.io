@@ -1,7 +1,7 @@
 ---
 title: "Music"
 collection: music
-permalink: /music/main
+permalink: /music
 
 ---
 
