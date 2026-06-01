@@ -9,19 +9,19 @@
 
 main:
   - title: "CV"
-    url: /files/SaumitPaul_Resume_AIEngineering.pdf
+    url: /files/SaumitPaul-Resume.pdf
 
   - title: "Publications"
     url: /publications/
 
-  - title: "Music"
-    url: /music/    
+  # - title: "Music"
+  #   url: /music/    
 
   # - title: "Teaching"
   #   url: /teaching/    
     
-  # - title: "Portfolio"
-  #   url: /portfolio/
+  - title: "Projects"
+    url: /portfolio/
         
   # - title: "Blog Posts"
   #   url: /year-archive/
