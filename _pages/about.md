@@ -11,6 +11,22 @@ redirect_from:
 ## About Me
 I am an **Applied Machine Learning Engineer** with over three years of experience specialized in building **FDA-approved computer vision models** for medical imaging. Currently, I am pursuing my **Master of Science in Electrical Engineering** at **North Carolina State University**. My expertise spans generative AI, audio signal processing, and medical diagnostics, with a focus on creating high-impact, regulatory-standard AI solutions.
 
+## 🚀 Featured Project: Floki
+{: .notice--info}
+
+<img src="../assets/images/floki-banner.png" alt="Floki Banner" style="width:60%; border-radius: 4px; margin-bottom: 15px;">
+
+
+**[Floki](https://github.com/5aumit/floki)** is an open-source, CLI-based agentic chatbot engineered to automate the query, analysis, and discovery workflows of local MLflow experiment metrics. 
+
+### See it in Action
+<img src="../assets/images/floki-demo.gif" alt="Floki CLI Demo" style="width:60%; border: 1px solid #e1e4e8; border-radius: 6px; margin-bottom: 15px;">
+
+* **Agentic Insights:** Built on LangChain to intelligently route intents and parse historical `mlruns` data logs[cite: 1, 2].
+* **Zero-Budget Observability:** Leverages a unified architecture integrating Langfuse multi-turn session tracing[cite: 1, 2].
+
+[ Explore the Repository ](https://github.com/5aumit/floki){: .btn .btn--primary} [ Read Technical Diary ](https://github.com/5aumit/floki/blob/master/diary.md){: .btn .btn--info}
+
 ---
 
 ## Education
