@@ -1,10 +1,10 @@
 ---
-layout: archive
-title: "Music"
+layout: single
 permalink: /music/
+title: "Music"
 author_profile: true
 ---
 
-{% for item in site.music reversed %}
+{% for post in site.music %}
   {% include archive-single.html %}
 {% endfor %}
