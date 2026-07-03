@@ -9,7 +9,7 @@
 
 main:
   - title: "CV"
-    url: /files/SaumitPaul-Resume.pdf
+    url: /files/Resume.pdf
 
   - title: "Publications"
     url: /publications/
