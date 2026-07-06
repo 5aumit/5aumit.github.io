@@ -62,7 +62,7 @@ It is actively being developed.
 
 ## Publications
 * [A Comprehensive Evaluation of DeepTek CXR Analyzer in Detecting and Localising Suspicious Findings in Chest X-rays](https://dx.doi.org/10.26044/ecr2024/C-23322) (ECR 2024)
-* [Artificial Intelligence as a Proficient Tool in Detecting Pulmonary Tuberculosis in Massive Population Screening Programmes](https://doi.org/10.2185/jrm.2024-015) (JRM 2024)
+* [Artificial Intelligence as a Proficient Tool in Detecting Pulmonary Tuberculosis in Massive Population Screening Programmes](https://doi.org/10.2185/jrm.2024-015) (JRM 2025)
 
 ---
 
