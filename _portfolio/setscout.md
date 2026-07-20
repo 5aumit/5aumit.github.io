@@ -1,59 +1,37 @@
 ---
 layout: single
-title: "SetScout — Agentic Dataset Discovery for ML Researchers"
-excerpt: "A LangGraph pipeline that searches Hugging Face and Kaggle from natural-language requirements, gathers dataset-card evidence, and produces a ranked evaluation report."
+title: "SetScout"
+excerpt: "Agentic dataset discovery from natural-language requirements to ranked reports across Hugging Face and Kaggle catalogs."
 collection: portfolio
+header:
+  teaser: /images/work/setscout.svg
 ---
 
-## SetScout
+<div class="work-detail">
 
-Finding the right public dataset means tab-hopping across Hugging Face, skimming READMEs, and mentally scoring fit against your constraints. **SetScout** automates that loop: describe what you need in plain language, and a four-node LangGraph pipeline searches sources, fetches evidence, and returns a structured markdown report with per-dataset requirement checks and rankings.
+<p class="revamp-meta">LangGraph · Hugging Face · Kaggle</p>
 
-```mermaid
-flowchart LR
-  Q[User query] --> D[Decomposer]
-  D --> S[Searcher]
-  S --> G[Gather evidence]
-  G --> E[Evaluator]
-  E --> R[Ranked report]
-```
+<img class="work-detail__img" src="/images/work/setscout.svg" alt="SetScout pipeline diagram">
 
-### Pipeline
+<h2>Problem</h2>
+<p>Finding the right public dataset means tab-hopping across Hugging Face, skimming READMEs, and mentally scoring fit against your constraints. SetScout automates that loop: describe what you need in plain language, and a four-node LangGraph pipeline searches sources, fetches evidence, and returns a structured markdown report with per-dataset requirement checks and rankings.</p>
 
-1. **Decomposer** — turns form inputs into a `SearchSpec` (keywords, MeSH terms, sources, hard constraints). LLM with rule-based fallback.
-2. **Searcher** — parallel async search across Hugging Face and Kaggle. Returns up to 8 candidates.
-3. **Gather evidence** — fetches dataset cards and README excerpts in parallel.
-4. **Evaluator** — single batch LLM call scores all candidates: requirement checks, known issues, fit summaries, and final ranking.
+<h2>Pipeline</h2>
+<p><strong>Decomposer.</strong> Turns form inputs into a <code>SearchSpec</code> with keywords, MeSH terms, sources, and hard constraints. LLM with rule-based fallback.</p>
+<p><strong>Searcher.</strong> Parallel async search across Hugging Face and Kaggle. Returns up to 8 candidates.</p>
+<p><strong>Gather evidence.</strong> Fetches dataset cards and README excerpts in parallel.</p>
+<p><strong>Evaluator.</strong> Single batch LLM call scores all candidates: requirement checks, known issues, fit summaries, and final ranking.</p>
 
-### Usage
+<h2>Stack</h2>
+<p>LangGraph, LangChain, Pydantic, Gemini API. Optional Langfuse tracing and Kaggle credentials for extended search.</p>
 
-```python
-from setscout import run_pipeline
+<h2>Status</h2>
+<p>Active development. A Gradio UI and Hugging Face Spaces deployment are in progress; live demo coming soon.</p>
 
-result = run_pipeline({
-    "purpose": "benchmark sentiment classifiers",
-    "domain": "natural language processing",
-    "data_type": "text datasets",
-    "requirements": "English, labeled, at least 1000 examples",
-    "exclude_datasets": "IMDB",
-})
-print(result["report"])
-```
+<div class="btn-row">
+  <a class="revamp-btn revamp-btn--primary" href="https://github.com/5aumit/setscout">GitHub</a>
+  <a class="revamp-btn revamp-btn--primary" href="https://deepwiki.com/5aumit/setscout">DeepWiki</a>
+  <a class="revamp-btn revamp-btn--secondary" href="/work/">Back to Work</a>
+</div>
 
-**Required fields:** `purpose`, `domain`, `data_type`  
-**Optional:** `requirements`, `additional_notes`, `exclude_datasets`
-
-### Stack
-
-LangGraph, LangChain, Pydantic, Gemini API. Optional Langfuse tracing and Kaggle credentials for extended search.
-
-### Status
-
-Active development. A Gradio UI and Hugging Face Spaces deployment are in progress; live demo coming soon.
-
----
-
-<p align="left">
-  <a href="https://github.com/5aumit/setscout" class="btn btn--primary">Explore the Repository</a>
-  <a href="https://deepwiki.com/5aumit/setscout" class="btn btn--info">Read the Docs</a>
-</p>
+</div>

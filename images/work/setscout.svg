@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" role="img">
+  <title>SetScout pipeline</title>
+  <rect width="600" height="340" fill="#eef1f4"/>
+  <g fill="none" stroke="#356b8c" stroke-width="2">
+    <rect x="40" y="130" width="100" height="56" rx="0"/>
+    <rect x="180" y="130" width="100" height="56" rx="0"/>
+    <rect x="320" y="130" width="100" height="56" rx="0"/>
+    <rect x="460" y="130" width="100" height="56" rx="0"/>
+    <path d="M140 158h40M280 158h40M420 158h40" stroke="#5a6b7b"/>
+  </g>
+  <g font-family="ui-monospace,monospace" font-size="14" fill="#1b2530" text-anchor="middle">
+    <text x="90" y="164">Query</text>
+    <text x="230" y="164">Search</text>
+    <text x="370" y="164">Evidence</text>
+    <text x="510" y="164">Rank</text>
+    <text x="300" y="60" font-size="22">SetScout</text>
+    <text x="300" y="88" font-size="12" fill="#5a6b7b">HF · Kaggle · report</text>
+  </g>
+</svg>

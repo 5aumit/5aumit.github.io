@@ -1,0 +1,46 @@
+{% include base_path %}
+
+{% if include.post.header.teaser %}
+  {% assign teaser = include.post.header.teaser %}
+{% elsif include.post.teaser %}
+  {% assign teaser = include.post.teaser %}
+{% else %}
+  {% assign teaser = nil %}
+{% endif %}
+
+{% if include.post.paperurl %}
+  {% assign pub_url = include.post.paperurl %}
+{% else %}
+  {% assign pub_url = include.post.url | prepend: base_path %}
+{% endif %}
+{% assign pub_year = include.post.date | default: "1900-01-01" | date: "%Y" %}
+
+<li>
+  <a class="writing-row" href="{{ pub_url }}"{% if include.post.paperurl %} target="_blank" rel="noopener noreferrer"{% endif %}>
+    {% if teaser %}
+      {% if teaser contains "://" %}
+        {% assign teaser_src = teaser %}
+      {% else %}
+        {% comment %} Paths like writing/foo.png live under /images/; absolute /images/... or /assets/... pass through. {% endcomment %}
+        {% assign teaser_path = teaser %}
+        {% assign teaser_first = teaser_path | slice: 0 %}
+        {% if teaser_first != "/" %}
+          {% if teaser_path contains "assets/" %}
+            {% assign teaser_path = teaser_path | prepend: "/" %}
+          {% else %}
+            {% assign teaser_path = teaser_path | prepend: "/images/" %}
+          {% endif %}
+        {% endif %}
+        {% assign teaser_src = teaser_path | prepend: base_path %}
+      {% endif %}
+      <img class="writing-row__thumb" src="{{ teaser_src }}" alt="">
+    {% endif %}
+    <div>
+      <h3>{{ include.post.title | markdownify | remove: '<p>' | remove: '</p>' }}</h3>
+      <p class="revamp-meta">{{ pub_year }} &middot; {{ include.post.venue }}</p>
+      {% if include.post.excerpt %}
+        <p class="writing-row__excerpt">{{ include.post.excerpt | markdownify | strip_html | truncate: 200 }}</p>
+      {% endif %}
+    </div>
+  </a>
+</li>
