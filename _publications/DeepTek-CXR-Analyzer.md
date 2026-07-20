@@ -3,9 +3,11 @@ title: A Comprehensive Evaluation of DeepTek CXR Analyzer in Detecting and Local
 collection: publications
 category: conferences
 permalink: /publication/DeepTek-CXR-Analyzer
-excerpt: 'The current study aims to evaluate the standalone and clinical performance of DeepTek CXR Analyzer in detecting and localising suspicious ROIs in the Lungs, Pleura, Cardiac, and Hardware categories. The primary objective of the standalone study is to measure and report the performance of DeepTek CXR Analyzer independently in the absence of any interaction with human readers. The primary objective of the clinical reader study is to determine whether the performance of readers aided by DeepTek CXR Analyzer is superior to their performance when unaided by DeepTek CXR Analyzer, as determined by the wAFROC-FOM score.'
+excerpt: 'Multi-reader multi-case evaluation of an FDA-cleared chest X-ray analyzer with 24 US radiologists.'
 date: 2024-01-01
 venue: 'European Congress of Radiology'
 paperurl: 'https://dx.doi.org/10.26044/ecr2024/C-23322'
+header:
+  teaser: writing/ecr2024-poster.png
 ---
 The current study aims to evaluate the standalone and clinical performance of DeepTek CXR Analyzer in detecting and localising suspicious ROIs in the Lungs, Pleura, Cardiac, and Hardware categories. The primary objective of the standalone study is to measure and report the performance of DeepTek CXR Analyzer independently in the absence of any interaction with human readers. The primary objective of the clinical reader study is to determine whether the performance of readers aided by DeepTek CXR Analyzer is superior to their performance when unaided by DeepTek CXR Analyzer, as determined by the wAFROC-FOM score.

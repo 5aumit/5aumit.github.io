@@ -25,12 +25,12 @@ author:
   # Biographic information
   avatar           : "saumit.png"
   name             : "Saumit Paul"
-  pronouns         : "he/him"  
+  pronouns         : # hide to match Prototype Author Profile
   bio              : "MS EE @ NC State"
   location         : "Raleigh, NC"
-  employer         : "North Carolina State University"
+  employer         : # hide to match Prototype Author Profile
   uri              : # URL
-  email            : "sspaul3@ncsu.edu" 
+  email            : # hide from rail; contact via LinkedIn/Scholar
 
   # Academic websites
   academia         : # URL
@@ -125,7 +125,7 @@ staticman:
       options:
         format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 atom_feed:
-  hide                   : false     # change to true to hide the RSS feed in the footer
+  hide                   : true      # Quiet Technical: slim footer like Prototype
   path                   : # blank (default) uses feed.xml
 
 

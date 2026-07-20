@@ -1,38 +1,36 @@
 ---
 layout: single
-title: "Floki 🧭 — LLM-Powered Agentic Assistant for MLflow"
-excerpt: "An open-source CLI agent built with Python and LangChain to automate structural queries, run analysis, and observability tracing over local MLflow logs."
+title: "Floki"
+excerpt: "Agentic CLI for querying and analyzing local MLflow experiment logs with natural-language routing, Langfuse tracing, and zero-cost observability."
 collection: portfolio
 header:
   teaser: /assets/images/floki-banner.png
 ---
 
-## 🚀 Featured Project: [Floki](https://github.com/5aumit/floki)
+<div class="work-detail">
 
-<img src="{{ base_path }}/assets/images/floki-banner.png" alt="Floki Banner" style="width:100%; border-radius: 4px; margin-bottom: 15px;">
+<p class="revamp-meta">Python · LangChain · MLflow · Langfuse</p>
 
-### 💡 The Inspiration
-During my tenure as a Data Scientist at DeepTek, debugging machine learning experiments was a highly collaborative but time-intensive process. Whenever anomalies arose, my teammates and I would immediately dive into our raw MLflow logs to isolate the root cause. Realizing how much friction researchers face while manually parsing dense tables and parameters, I engineered **Floki**—an intelligent, command-line companion designed to make experiment auditing instantaneous, autonomous, and accessible for ML engineers.
+<h2>Inspiration</h2>
+<p>At DeepTek, debugging ML experiments meant diving into raw MLflow logs whenever anomalies appeared. Researchers spent hours parsing dense parameter tables and run metadata. Floki is a CLI agent that makes experiment auditing instantaneous: ask questions in natural language and get structured answers from local <code>mlruns</code> directories without leaving the terminal.</p>
 
-### 🎬 See it in Action
-<img src="{{ base_path }}/assets/images/floki-demo.gif" alt="Floki CLI Demo" style="width:100%; border: 1px solid #e1e4e8; border-radius: 6px; margin-bottom: 5px;">
-*The following GIF is sped up to focus on the core user interaction loop and bypass standard MLflow Client initialization overhead.*
-{: .small style="color: #6a737d; display: block; margin-bottom: 25px;"}
+<h2>Demo</h2>
+<img class="work-detail__gif" src="{{ '/assets/images/floki-demo.gif' | relative_url }}" alt="Floki CLI demo">
+<p class="revamp-meta">Sped up to focus on the core interaction loop and bypass standard MLflow Client initialization overhead.</p>
 
----
+<h2>Architecture and features</h2>
+<p><strong>Agentic run discovery.</strong> Powered by LangChain, Floki routes user intents to targeted sub-tools. Natural language questions become structured queries that filter, match, and extract insights from local experiment directories.</p>
+<p><strong>Langfuse observability.</strong> End-to-end multi-turn session tracking and analytics monitoring under strict zero-cost infrastructure limits. Every routing decision, prompt iteration, and database payload is traced natively.</p>
+<p><strong>Terminal UI.</strong> A decoupled console UI pattern isolates backend inference from terminal rendering for a smooth, low-latency command-line experience.</p>
 
-### 🛠️ Core Architecture & Key Features
+<h2>Status</h2>
+<p>Active development. Current work expands native database access adapters, adds statistical analysis modules for multi-run delta comparisons, and refines intent-routing prompts for accuracy across thousands of localized experiment runs.</p>
 
-* **Agentic Run Discovery:** Powered by LangChain, Floki acts as an autonomous agent that dynamically routes user intents to targeted sub-tools. It translates natural language questions into structured queries capable of filtering, matching, and extracting insights from local `mlruns` directories.
-* **Production-Grade Observability (On a $0 Budget):** Integrated end-to-end multi-turn session tracking and analytics monitoring using a unified Langfuse framework. Every agentic routing decision, prompt template iteration, and database payload transaction is fully traced natively under strict zero-cost infrastructure limits.
-* **Clean Terminal UI:** Built on a decoupled console UI pattern, isolating backend inference engines from terminal rendering to ensure a smooth, low-latency command-line interface.
+<div class="btn-row">
+  <a class="revamp-btn revamp-btn--primary" href="https://github.com/5aumit/floki">GitHub</a>
+  <a class="revamp-btn revamp-btn--primary" href="https://deepwiki.com/5aumit/floki">DeepWiki</a>
+  <a class="revamp-btn revamp-btn--secondary" href="https://github.com/5aumit/floki/blob/master/diary.md">Technical Diary</a>
+  <a class="revamp-btn revamp-btn--secondary" href="/work/">Back to Work</a>
+</div>
 
-### 📈 Current Project Status
-Floki is under active lifecycle development. Ongoing iterations are focused on expanding native database access adapters, introducing advanced statistical analysis modules for multi-run delta comparisons, and refining intent-routing prompts to maintain high accuracy when dealing with thousands of localized experiment runs.
-
----
-
-<p align="left">
-  <a href="https://github.com/5aumit/floki" class="btn btn--primary">🧭 Explore the Repository</a>
-  <a href="https://github.com/5aumit/floki/blob/master/diary.md" class="btn btn--info">📖 Read the Technical Diary</a>
-</p>
+</div>

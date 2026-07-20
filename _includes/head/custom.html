@@ -2,6 +2,23 @@
 
 <!-- start custom head snippets -->
 
+<script>
+  (function () {
+    var s = localStorage.getItem("theme");
+    var dark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+    var use = (s === "dark" || s === "light") ? s : (dark ? "dark" : "light");
+    if (use === "dark") {
+      document.documentElement.setAttribute("data-theme", "dark");
+    }
+  })();
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Hanken+Grotesk:wght@400;500;600&family=Young+Serif&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="{{ base_path }}/assets/css/revamp.css">
+
 <!-- Support for Academicons -->
 <link rel="stylesheet" href="{{ base_path }}/assets/css/academicons.css"/>
 
@@ -12,6 +29,6 @@
 <link rel="icon" type="image/png" href="{{ base_path }}/images/favicon-192x192.png" sizes="192x192"/>
 <link rel="manifest" href="{{ base_path }}/images/manifest.json"/>
 <link rel="icon" href="/images/favicon.ico"/>
-<meta name="theme-color" content="#ffffff"/>
+<meta name="theme-color" content="#eef1f4"/>
 
 <!-- end custom head snippets -->
