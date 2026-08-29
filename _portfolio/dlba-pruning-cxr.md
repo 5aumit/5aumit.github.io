@@ -11,6 +11,10 @@ header:
 
 <p class="revamp-meta">PyTorch · TorchXRayVision · Model Pruning · Medical AI Fairness</p>
 
+<div class="btn-row">
+  <a class="revamp-btn revamp-btn--primary" href="https://dlba-pruning-cxr.netlify.app/" target="_blank" rel="noopener noreferrer">Live Demo</a>
+</div>
+
 <h2>Research question</h2>
 <p>Can a chest X-ray model become small enough for resource-constrained devices without losing diagnostic performance or increasing demographic bias? This course project for Deep Learning Beyond Accuracy at NC State tests that trade-off directly.</p>
 
