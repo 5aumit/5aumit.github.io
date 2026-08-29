@@ -835,6 +835,27 @@ a.exp-block__brand:hover .exp-block__company {
   border: 1px solid var(--revamp-line);
 }
 
+.work-detail__figure {
+  margin: 0 0 1.5rem;
+}
+
+.work-detail__figure .work-detail__img {
+  margin-bottom: 0.6rem;
+}
+
+.work-detail__figure figcaption {
+  font-family: var(--revamp-font-mono);
+  font-size: 0.75rem;
+  line-height: 1.5;
+  color: var(--revamp-muted);
+}
+
+.work-detail__figure--narrow {
+  max-width: 540px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 .work-detail p {
   margin: 0 0 1rem;
 }

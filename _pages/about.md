@@ -129,7 +129,7 @@ redirect_from:
 </section>
 
 <section class="revamp-section" id="projects" aria-labelledby="proj-heading">
-  <h2 id="proj-heading">Selected Projects</h2>
+  <h2 id="proj-heading">Projects</h2>
   <ul class="project-list">
     <li>
       <a class="project-row" href="/portfolio/floki/">
@@ -148,6 +148,16 @@ redirect_from:
           <h3>SetScout</h3>
           <p class="revamp-meta">LangGraph · Hugging Face · Kaggle</p>
           <p>Agentic dataset discovery from natural-language requirements to ranked reports across Hugging Face and Kaggle catalogs.</p>
+        </div>
+      </a>
+    </li>
+    <li>
+      <a class="project-row" href="/portfolio/dlba-pruning-cxr/">
+        <img class="project-row__thumb" src="/assets/images/dlba-pruning-cxr/overall-auroc.png" alt="AUROC change across model pruning levels">
+        <div>
+          <h3>Pruning CXR Models</h3>
+          <p class="revamp-meta">PyTorch · TorchXRayVision · Medical AI Fairness</p>
+          <p>Study of how neural network pruning changes chest X-ray performance, model footprint, and demographic fairness.</p>
         </div>
       </a>
     </li>

@@ -134,5 +134,15 @@ author_profile: true
         </div>
       </a>
     </li>
+    <li>
+      <a class="project-row" href="/portfolio/dlba-pruning-cxr/">
+        <img class="project-row__thumb" src="/assets/images/dlba-pruning-cxr/overall-auroc.png" alt="AUROC change across model pruning levels">
+        <div>
+          <h3>Pruning CXR Models</h3>
+          <p class="revamp-meta">PyTorch · TorchXRayVision · Medical AI Fairness</p>
+          <p>Study of how neural network pruning changes chest X-ray performance, model footprint, and demographic fairness.</p>
+        </div>
+      </a>
+    </li>
   </ul>
 </section>
