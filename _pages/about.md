@@ -161,6 +161,16 @@ redirect_from:
         </div>
       </a>
     </li>
+    <li>
+      <a class="project-row" href="/portfolio/genai-cache-policies/">
+        <img class="project-row__thumb" src="/assets/images/genai-cache-policies/main-loop-report.png" alt="Diagram of the cache-policy design workflow">
+        <div>
+          <h3>Generative AI for Cache Policy Design</h3>
+          <p class="revamp-meta">Generative AI · Cache Replacement · Simulation</p>
+          <p>Team project exploring structured memory, candidate screening, and iterative simulation for cache-policy design.</p>
+        </div>
+      </a>
+    </li>
   </ul>
 </section>
 
